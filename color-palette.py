@@ -1,3 +1,10 @@
+""" 
+A small program that traverses a website's stylesheets to get the dominant colors used in it. It generates an HTML file containing the 
+colors sorted by their frequency.
+__author__ = "Prakhar Srivastav"
+__date__ = "$Date: 2012/11/28"
+"""
+
 import re, collections, operator, urllib, sys
 from lxml import html
 

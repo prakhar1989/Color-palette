@@ -7,6 +7,10 @@ Generate a site's color palette.
 A small program that traverses a website's stylesheets to get the dominant colors used in it. It generates an HTML file containing the 
 colors sorted by their frequency.
 
+## Dependancies
+
+- lxml
+
 ## Usage
 
     python color-palette.py news.ycombinator.com
